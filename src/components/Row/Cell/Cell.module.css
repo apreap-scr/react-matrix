@@ -1,0 +1,11 @@
+.block>div {
+    color: rgb(28, 221, 38);
+    background-color: #000000;
+    margin: 3px;
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

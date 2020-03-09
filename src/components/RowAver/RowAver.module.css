@@ -1,0 +1,11 @@
+.block {
+    /* margin: 3px;
+    font-size: 20px;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: row;
+}

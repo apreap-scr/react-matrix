@@ -1,0 +1,13 @@
+.wrapper {
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+    display: inline-block;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+}
+
+.addNewRow {}
+
+.block-matrix {
+    margin-top: 15px;
+}

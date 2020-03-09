@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin: 15px;
+}

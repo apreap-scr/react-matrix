@@ -1,0 +1,142 @@
+* {
+    font-family: 'Lora';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    min-width: 1170px;
+}
+
+.wrapper-main {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* -----------------------< header >-------------------------- */
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__title {
+    margin: 0 50px;
+}
+
+.header__button {
+    user-select: none;
+    width: 150px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(235, 214, 19, 0.76);
+    color: rgb(29, 32, 219);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: solid 1px rgb(71, 70, 56);
+}
+
+.header__button:hover {
+    background-color: rgba(28, 189, 97, 0.904);
+}
+
+.header__img-sing {}
+
+/* -----------------------< END header >-------------------------- */
+
+/* ---------------------< matrix >------------------------ */
+
+.matrix {
+    position: relative;
+    display: inline-block;
+}
+
+/* general for cell, sum, average */
+
+.matrix__cell, .matrix__sum, .matrix__average {
+    display: flex;
+}
+
+.matrix__cell_row>div, .matrix__sum>div, .matrix__average>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    font-size: 1rem;
+    margin: 3px;
+    background-color: #000000;
+}
+
+/* cell */
+
+.matrix__cell {
+    flex-direction: column;
+}
+
+.matrix__cell_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.matrix__cell_row>div {
+    color: #00FF66;
+}
+
+.matrix__cell_delete {
+    width: 40px;
+    height: 20px;
+    padding: 4px;
+    color: #fff;
+}
+
+.matrix__cell_delete>i {
+    color: #fff;
+}
+
+.matrix__cell_delete:hover>i {
+    color: rgb(216, 75, 75);
+}
+
+/* sum */
+
+.matrix__sum {
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    right: -80px;
+    width: 80px;
+    height: 100%;
+}
+
+.matrix__sum>div {
+    width: 100%;
+    color: #fff;
+}
+
+.matrix__sum>div:hover {
+    background-color: rgb(8, 8, 250);
+}
+
+/* average */
+
+.matrix__average {
+    position: absolute;
+    bottom: -25px;
+    left: 45px;
+}
+
+.matrix__average>div {
+    color: #fff;
+}
+
+/* ---------------------< END matrix >------------------------ */
